@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: darkgray;
+    padding : 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.navbar li{
+    float: right;
+
+}
+.DIVA{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.DIVB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.DIVC{
+    background-color: darkgrey;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+    width: 32%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    color: black;
+    font-size: large;
+    text-align: left;
+}
+
+.DIVE{
+    background-color: darkgrey;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+    width: 69%;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.DIVD{
+    background-color: darkgrey;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 250px;
+    width: 28%;
+    margin-left: 10px;
+    text-align: center;
+}
+.footer{
+    margin-top: 10px;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+.heading{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+.parah{
+    text-align: center;
+
+}
