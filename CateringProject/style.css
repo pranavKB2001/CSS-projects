@@ -1,0 +1,77 @@
+
+
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+
+    /* Flex container for the whole page, arranged vertically */
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center items horizontally */
+    }
+
+    /* Section 1: Image with Text Overlay */
+    .section1 {
+      position: relative;
+      max-width: 100%;
+    }
+
+    .text-overlay {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: grey;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Section 2: About Catering */
+    .section2 {
+      padding: 50px;
+      
+    }
+
+    .section2 img {
+      margin-right: 15px;
+      float: left;
+      width: 400px;
+      height: 500px;
+    }
+
+    /* Section 3: Our Menu */
+    .section3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      text-align: left;
+    }
+
+    .menu-text {
+      width: 45%; /* Adjust the width of the text container */
+    }
+
+    .menu-image {
+      width: 45%; /* Adjust the width of the image container */
+    }
+
+    .menu-item {
+      margin-bottom: 20px;
+    }
+
+    /* Additional styles for consistency */
+    h1, h2, p {
+      margin: 0;
+    }
+
+    span {
+      font-weight: bold;
+    }
